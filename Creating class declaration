@@ -1,0 +1,7 @@
+class Square :
+    side = 1.0
+    
+def setSide (side) :
+    self.side = side;
+    if (self.side < 0):
+        self.side = 0
