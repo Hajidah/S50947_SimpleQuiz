@@ -5,3 +5,4 @@ def setSide (self,side) :
     self.side = side;
     if (self.side < 0):
         self.side = 0
+        return self.side
